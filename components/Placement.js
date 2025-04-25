@@ -6,8 +6,8 @@ export default function Placement(){
             <div className="max-w-7xl mx-auto p-4">
             <h3 className="font-bold text-3xl mb-4 text-center">Placement 2023-25</h3>
             <hr className="border-b-2 border-red-600 w-80 mx-auto mb-12" />
-            <div className="flex flex-col gap-2 sm:flex-row">
-            <div className="flex-1 bg-white shadow-2xl rounded">
+            <div className="flex flex-col gap-4 sm:flex-row">
+            <div className="flex-1 bg-white shadow-2xl rounded-md">
           <div className="relative w-full">
             <Image
               src="/pragati-youtube.jpg"

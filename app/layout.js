@@ -1,4 +1,7 @@
 import { Geist, Mulish } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
+ import { GoogleTagManager } from '@next/third-parties/google'
+
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -23,12 +26,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <GoogleTagManager gtmId="GTM-MVN6NVR" />
       <body
         className={`${geistSans.variable} ${mulish.className} antialiased`}
       >
         <Navbar />
         {children}
         <Footer/>
+        <GoogleAnalytics gaId="G-YTTTXDKSTX" />
       </body>
     </html>
   );

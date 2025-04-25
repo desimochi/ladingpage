@@ -1,8 +1,10 @@
 import AboutTaxila from "@/components/About";
+import Faculty from "@/components/Faculty";
 import Hero from "@/components/Hero";
 import Placement from "@/components/Placement";
 import PGDMSection from "@/components/Section";
 import Slider from "@/components/Silder";
+import Testimonials from "@/components/Testimonials";
 import PureSlider from "@/components/Testimonials";
 import Image from "next/image";
 export const metadata = {
@@ -33,8 +35,9 @@ export default function Home() {
     <PGDMSection/>
     <Slider/>
     <Placement/>
+    <Faculty/>
+    <Testimonials/>
     <AboutTaxila/>
-    <PureSlider/>
     </>
   );
 }
