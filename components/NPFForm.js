@@ -28,7 +28,6 @@ export default function FormWidget() {
         className="npf_wgts"
         data-height="520px"
         data-w="b8c4e00dec4eb71a43966a6ca45f53f3"
-        style={{ width: '100%', minHeight: '600px' }}
       ></div>
     </div>
   );

@@ -14,9 +14,9 @@ export default function Hero() {
      </div>
       <div className="relative text-white">
        
-        <div className="relative flex flex-col items-center justify-center  text-center bg-opacity-60 bg-cover bg-center" style={{ backgroundImage: "url('https://taxila.in/img/taxila.jpg')" }}>
-            <div className="z-10 bg-black opacity-80  min-h-screen w-full ">
-                <div className="flex items-center text-start max-w-7xl mt-40 mx-auto">            
+        <div className="relative flex flex-col  justify-center  text-center bg-opacity-60 bg-cover bg-center" style={{ backgroundImage: "url('https://taxila.in/img/taxila.jpg')" }}>
+            <div className="z-10 bg-black/70   min-h-screen w-full ">
+                <div className="flex text-start max-w-7xl mt-12 mx-auto">            
                     <div className="w-full sm:w-1/2 p-2">
             <div className="mb-4">
             <span className="inline-block rounded-full bg-white/10 px-4 py-1 text-sm text-white ring-1 ring-white/20 backdrop-blur-sm">
@@ -33,7 +33,7 @@ with Triple Specialization
             {stats.map((stat, index) => (
           <div
             key={index}
-            className="bg-yellow-600 bg-opacity-80 text-center p-6 rounded-lg shadow-lg"
+            className="bg-yellow-500 bg-opacity-80 text-center p-6 rounded-lg shadow-lg"
           >
             <p className="text-3xl font-bold text-white">{stat.value}</p>
             <p className="mt-2 text-white">{stat.label}</p>
