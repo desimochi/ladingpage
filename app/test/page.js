@@ -159,17 +159,17 @@ with Triple Specialization</h2>
         <h2 className="text-3xl font-bold text-center mb-10">MBA Success: From Classroom to Career</h2>
         <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
             <div className="bg-white text-black p-6 rounded-xl w-80">
-              <p className="text-md italic">"Learning is the essence of life. Taxila is one of the places that has always encouraged me and boosted my skills. I had an exciting experience in this college. In every aspect, Taxila if not top then one of the top colleges for MBA in Jaipur. I would like to thank each and everyone who made my journey far better including students, staff members, and faculties."</p>
+              <p className="text-md italic">Learning is the essence of life. Taxila is one of the places that has always encouraged me and boosted my skills. I had an exciting experience in this college. In every aspect, Taxila if not top then one of the top colleges for MBA in Jaipur. I would like to thank each and everyone who made my journey far better including students, staff members, and faculties.</p>
               <div className="mt-4 font-bold">Sonal Oberoi</div>
               <p className="text-sm text-gray-600">Batch 2018-2020</p>
             </div>
             <div className="bg-white text-black p-6 rounded-xl w-80">
-              <p className="text-md italic">"The place where I am right now is all because of one reason and it's Taxila. I'm really grateful that I got admission in Taxila, which lead me to a bright future. The wisdom and experience of faculty have guided me to choose the right path in my career. I would like to thank the Management and faculties in Taxila for being supportive & for helping me achieve my dream."</p>
+              <p className="text-md italic">The place where I am right now is all because of one reason and its Taxila. I am really grateful that I got admission in Taxila, which lead me to a bright future. The wisdom and experience of faculty have guided me to choose the right path in my career. I would like to thank the Management and faculties in Taxila for being supportive & for helping me achieve my dream.</p>
               <div className="mt-4 font-bold">Geetha M</div>
               <p className="text-sm text-gray-600">Batch 2018-2020</p>
             </div>
             <div className="bg-white text-black p-6 rounded-xl w-80">
-              <p className="text-md italic">"Taxila has provided me a platform to realize my potential and how to make the best use of my strengths. The guidance and the support of the professors throughout our course were incredible. Also, Till now If I face any tricky situation and seeking for help they are always ready with their guidance. For me, Taxila is on the list of top MBA colleges in India I feel fortunate to be a part of this."</p>
+              <p className="text-md italic">Taxila has provided me a platform to realize my potential and how to make the best use of my strengths. The guidance and the support of the professors throughout our course were incredible. Also, Till now If I face any tricky situation and seeking for help they are always ready with their guidance. For me, Taxila is on the list of top MBA colleges in India I feel fortunate to be a part of this.</p>
               <div className="mt-4 font-bold">Suraj Panigrahi </div>
               <p className="text-sm text-gray-600">Batch 2018-2020</p>
             </div>
