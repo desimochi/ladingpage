@@ -22,8 +22,8 @@ export default function FormWidget() {
 
   return (
     <div className="px-4 pt-4 bg-gray-100">
-      <h2 className="text-xl text-center font-sans text-black font-semibold mb-2">PGDM Admission Open 2025-27</h2>
-      <p className='text-center mb-4 text-black'>PGDM Business Analytics,
+      <h2 className="text-xl text-center font-sans text-black font-semibold mb-4">PGDM Admission Open 2025-27</h2>
+      <p>PGDM Business Analytics,
 with Triple Specialization</p>
       <div
         ref={widgetRef}
