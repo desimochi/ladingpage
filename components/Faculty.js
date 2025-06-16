@@ -10,7 +10,7 @@ const images = [
 export default function Faculty() {
 
   return (
-    <div className='bg-gray-100 pb-8 pt-8'>
+    <div className='bg-[#fff5e1] pb-8 pt-8'>
       <h3 className="font-bold text-3xl mb-4 mt-4 text-center">Faculty and Research</h3>
       <hr className="border-b-2 border-red-600 w-80 mx-auto mb-12" />
 

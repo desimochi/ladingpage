@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function AboutTaxila() {
   return (
     <>
-    <div className="bg-gray-100 px-4 py-20">
+    <div className=" bg-white px-4 py-20">
       {/* Awards and Fact Sheet Section */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Awards Section */}
@@ -47,7 +47,7 @@ export default function AboutTaxila() {
               className="rounded"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <Link href="https://youtu.be/jcsV5HJN9Rw?si=swivOe8-z9uVX0s7" target='_blank' className="bg-red-600 text-white px-4 py-3 rounded-full shadow-lg text-xl cursor-pointer">
+              <Link href="https://youtu.be/L2EGID9BsEE?si=CzaLpSmFvDVtByE2" target='_blank' className="bg-red-600 text-white px-4 py-3 rounded-full shadow-lg text-xl cursor-pointer">
                 ▶
               </Link>
             </div>

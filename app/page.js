@@ -7,6 +7,7 @@ import Slider from "@/components/Silder";
 import Testimonials from "@/components/Testimonials";
 import PureSlider from "@/components/Testimonials";
 import Image from "next/image";
+import LPULandingPage from "./test/page";
 export const metadata = {
   title: "Taxila Business School PGDM Admisisons 2025 | Apply Now",
   description: "Taxila Business School is the Best MBA/PGDM Colleges in India offers AICTE approved PGDM+Business Analytics with Triple Specialization for all students.",
@@ -31,13 +32,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-    <Hero/>
-    <PGDMSection/>
-    <Slider/>
-    <Placement/>
-    <Faculty/>
-    <Testimonials/>
-    <AboutTaxila/>
+   <LPULandingPage />
     </>
   );
 }
