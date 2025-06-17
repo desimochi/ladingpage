@@ -1,7 +1,7 @@
 export default function Scholarships() {
   return (
-    <>
-    <h3 className="px-12 text-3xl font-bold text-gray-800">Scholarships</h3>
+    <div className="bg-white py-12">
+    <h3 className="px-12 text-3xl font-bold text-gray-800 text-center mb-3">Scholarships</h3>
     <div className="max-w-6xl mx-auto p-6 grid md:grid-cols-2 gap-6 text-sm text-gray-800">
       {/* Based on Entrance Exam */}
       <div className="shadow-md border border-gray-200">
@@ -74,6 +74,6 @@ export default function Scholarships() {
         </table>
       </div>
     </div>
-    </>
+    </div>
   )
 }

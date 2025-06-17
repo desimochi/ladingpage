@@ -11,7 +11,9 @@ const Navbar = () => {
         <div className="text-center">
           <Image src={logo} alt="Taxila Logo" width={120} height={80} />
         </div>
-
+ <div className="text-center">
+          <Image src={aicte} alt="AICTE Approved" width={120} height={80} className="mx-auto" />
+        </div>
         {/* Center: Title */}
         <h2 className="text-2xl md:text-3xl font-normal font-mulish text-center flex-1 hidden sm:block">
           TAXILA BUSINESS SCHOOL
@@ -19,7 +21,7 @@ const Navbar = () => {
         
         {/* Right: AICTE Approved */}
         <div className="text-center">
-          <Image src={aicte} alt="AICTE Approved" width={120} height={80} className="mx-auto" />
+          <a href='tel:+918404040404' className='bg-red-700 px-4 text-white rounded-md py-2'>Call Now</a>
         </div>
       </div>
     </header>

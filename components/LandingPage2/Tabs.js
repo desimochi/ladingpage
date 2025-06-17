@@ -15,8 +15,6 @@ export default function Tabs() {
         return <Eligibility />
       case 'tab2':
         return <AdmissionInfo />
-      case 'tab3':
-        return <Scholarships />
       case 'tab4':
         return <Fees />
       default:
@@ -30,7 +28,6 @@ export default function Tabs() {
         {[
           { id: 'tab1', label: 'Eligibility' },
           { id: 'tab2', label: 'Admission Process' },
-          { id: 'tab3', label: 'Scholarships' },
           { id: 'tab4', label: 'Fees' },
         ].map((tab) => (
           <button
