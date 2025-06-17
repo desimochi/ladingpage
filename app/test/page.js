@@ -83,7 +83,7 @@ export default function HomePage() {
       
       <div className="bg-white pb-4">
   <Testimonials />
-          <p className="text-gray-800 text-center">For More Information Visit Our Website : <a href={'www.taxila.in'} className="text-red-600 underline">www.taxila.in</a></p>
+          <p className="text-gray-800 text-center">For More Information Visit Our Website : <a href='https://taxila.in/?utm_source=googleads&utm_medium=landingpage' className="text-red-600 underline">www.taxila.in</a></p>
       </div>
     
     </main>
