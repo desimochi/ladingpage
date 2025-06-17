@@ -12,10 +12,10 @@ export default function AdmissionInfo() {
           </h2>
           <ul className="space-y-3 text-sm leading-relaxed list-none">
             <li>
-              ✅ For filing application for the first time choose "Apply Now"
+              ✅ For filing application for the first time choose Apply Now
             </li>
             <li>
-              ✅ To edit your saved application, go to “Login” under “Apply Online”.
+              ✅ To edit your saved application, go to “Login” under Apply Online.
             </li>
             <li>
               ✅ Your password for editing the application form will be sent to your registered email address.
