@@ -2,7 +2,7 @@ export default function Eligibility(){
     return(
         <div  className="text-gray-700">
             <h3 className="text-2xl font-bold mb-3">Eligibility & Selection Criteria</h3>
-            <p>Taxila accepts CAT, CMAT and XAT. Aspirants seeking admission to Taxila's PGDM in Business Analytics must have a minimum of 50% marks in graduation for the General category and 45% for the reserved category, as per AICTE norms. Students appearing in their final year of graduation are also eligible to apply.</p>
+            <p>Taxila accepts CAT, CMAT and XAT. Aspirants seeking admission to Taxila PGDM in Business Analytics must have a minimum of 50% marks in graduation for the General category and 45% for the reserved category, as per AICTE norms. Students appearing in their final year of graduation are also eligible to apply.</p>
             <p className="py-3 font-bold">Before the final selection, general profiling of the applicant is conducted based on the following parameters.</p>
             <table className="w-full text-center mt-3 border">
                                     <thead>
