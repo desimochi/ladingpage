@@ -21,18 +21,6 @@ export default function Testimonials() {
       title: "Batch 2018-2020",
       avatar: "/mohit.jpg",
     },
-    {
-      quote: "The place where I am right now is all because of one reason and it's Taxila. I'm really grateful that I got admission in Taxila, which lead me to a bright future. The wisdom and experience of faculty have guided me to choose the right path in my career. I would like to thank the Management and faculties in Taxila for being supportive & for helping me achieve my dream.",
-      name: "Geetha M",
-      title: "Batch 2018-2020",
-      avatar: "/mohit.jpg",
-    },
-    {
-      quote: "Taxila - named derived from Takshashila University, famous for leaders like Chandragupta Maurya and Chanakya. Modern Taxila also works on similar grounds, leadership skills that I have inculcated during my MBA in Taxila, has made me what I am today. Taxila gave me a platform to express myself freely and implement new ideas. I would like to thank Anuradha ma'am who is like a mother to me and has given me freedom to do what my heart desires and has made me believe that girl you have got all wings to fly.",
-      name: "Mansi Gandhi",
-      title: "Batch 2017-2019",
-      avatar: "/mohit.jpg",
-    },
   ];
 
   return (
@@ -51,12 +39,6 @@ export default function Testimonials() {
             <p className="text-gray-700 italic mb-4">{t.quote}</p>
             <div className="flex items-center space-x-4">
               <div className="relative w-10 h-10">
-                <Image
-                  src={t.avatar}
-                  alt={t.name}
-                  layout="fill"
-                  className="rounded-full object-cover"
-                />
               </div>
               <div>
                 <p className="text-sm font-semibold text-gray-900">{t.name}</p>

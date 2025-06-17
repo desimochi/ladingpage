@@ -5,6 +5,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import TimerSection from "@/components/LandingPage2/TimerSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,12 +25,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+   const targetDate = '2025-06-20T23:59:59';
   return (
     <html lang="en">
        <GoogleTagManager gtmId="GTM-MVN6NVR" />
       <body
         className={`${geistSans.variable} ${mulish.className} antialiased`}
       >
+        <TimerSection targetDate={targetDate} />
         <Navbar />
         {children}
         <Footer/>

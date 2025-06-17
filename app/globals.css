@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -29,3 +31,29 @@ body {
   background-size: cover;
   background-position: center;
 }
+.tab-buttons a {
+      margin-right: 10px;
+      padding: 8px 12px;
+      background: #eee;
+      text-decoration: none;
+      border-radius: 5px;
+      color: #333;
+    }
+
+    .tab-content {
+      display: none;
+      margin-top: 20px;
+      padding: 10px;
+      background: #f8f8f8;
+      border: 1px solid #ccc;
+    }
+
+    /* Show only the targeted tab */
+    .tab-content:target {
+      display: block;
+    }
+
+    /* Optional: Default tab if no target is selected */
+    .tabs:not(:has(:target)) #tab1 {
+      display: block;
+    }
