@@ -16,7 +16,7 @@ export default function PlacementNew(){
                 </div>
                 <div className="border bg-white px-4 py-6 rounded-xl text-center">
                     <h5 className="text-orange-600 font-bold text-3xl sm:text4xl">Rs. 25.60 LPA</h5>
-                    <p className="text-xl font-bold text-black">Highest Domestice Package</p>
+                    <p className="text-xl font-bold text-black">Highest Domestic Package</p>
                 </div>
                 <div className="border bg-white px-4 py-6 rounded-xl text-center ">
                     <h5 className="text-orange-600 font-bold text-3xl sm:text4xl">80+</h5>
