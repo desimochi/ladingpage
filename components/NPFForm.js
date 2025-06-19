@@ -22,8 +22,7 @@ export default function FormWidget() {
 
   return (
     <div className="px-4 pt-4 bg-gray-100">
-      <h2  className="text-xl text-center font-sans text-black font-semibold mb-2">PGDM Business Analytics,
-with Triple Specialization</h2>
+     
       <h3 className=" text-center font-sans text-gray-800 font-semibold mb-2">Admission Open 2025-27</h3>
       
       <div

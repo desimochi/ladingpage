@@ -25,7 +25,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-   const targetDate = '2025-06-20T23:59:59';
+   const targetDate = '2025-06-30T23:59:59';
   return (
     <html lang="en">
        <GoogleTagManager gtmId="GTM-MVN6NVR" />
