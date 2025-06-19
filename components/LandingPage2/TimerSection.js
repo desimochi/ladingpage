@@ -35,8 +35,8 @@ with Triple Specialization with Deadline of{" "}
         <span className="font-bold">20 June 2025</span>
         <div className="flex justify-center gap-4 mt-3">
         {['days', 'hours', 'minutes', 'seconds'].map((unit) => (
-          <div key={unit} className="bg-red-700 text-white rounded w-20 py-3 shadow">
-            <div className="text-3xl font-bold">{`${timeLeft[unit]<10? "0":""}`}{ timeLeft[unit]}</div>
+          <div key={unit} className="bg-red-700 text-white rounded w-20 p-1 shadow">
+            <div className="text-2xl font-bold">{`${timeLeft[unit]<10? "0":""}`}{ timeLeft[unit]}</div>
             <div className="uppercase text-xs">{unit}</div>
           </div>
         ))}

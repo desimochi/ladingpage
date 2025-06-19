@@ -1,9 +1,12 @@
+import FormWidget from "@/components/NPFForm";
+
 export default function Scholarships() {
   return (
     <div className="bg-white py-12">
     <h3 className="px-12 text-3xl font-bold text-gray-800 text-center mb-3">Scholarships</h3>
     <div className="max-w-6xl mx-auto p-6 grid md:grid-cols-2 gap-6 text-sm text-gray-800">
       {/* Based on Entrance Exam */}
+      <div>
       <div className="shadow-md border border-gray-200">
         <div className="bg-red-700 text-white font-semibold px-4 py-2">
           Based on Entrance Exam
@@ -31,7 +34,7 @@ export default function Scholarships() {
       </div>
 
       {/* Based on Academic Performance */}
-      <div className="shadow-md border border-gray-200">
+      <div className="shadow-md border border-gray-200 mt-4 mb-4">
         <div className="bg-red-700 text-white font-semibold px-4 py-2">
           Based on Academic Performance
         </div>
@@ -73,6 +76,8 @@ export default function Scholarships() {
           </tbody>
         </table>
       </div>
+</div>
+<FormWidget />
     </div>
     </div>
   )

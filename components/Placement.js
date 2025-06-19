@@ -24,7 +24,7 @@ export default function Placement(){
             </div>
           </div>
           <div>
-            <p className="text-center font-bold mt-4 text-xl mb-4">Pragati Verma Placed at Accenture</p>
+            <p className="text-center text-black font-bold mt-4 text-xl mb-4">Pragati Verma Placed at Accenture</p>
           </div>
         </div>
         <div className="flex-1 bg-white shadow-2xl rounded">
@@ -44,7 +44,7 @@ export default function Placement(){
             </div>
           </div>
           <div>
-            <p className="text-center font-bold mt-4 text-xl mb-4">Vishnu Priya Placed at Zoroastrian Bank</p>
+            <p className="text-center text-black font-bold mt-4 text-xl mb-4">Vishnu Priya Placed at Zoroastrian Bank</p>
           </div>
         </div>
         <div className="flex-1 bg-white shadow-2xl rounded">
@@ -64,7 +64,7 @@ export default function Placement(){
             </div>
           </div>
           <div>
-            <p className="text-center font-bold mt-4 text-xl mb-4">Aarushi Rastogi Placed at Zoroastrian Bank</p>
+            <p className="text-center font-bold text-black mt-4 text-xl mb-4">Aarushi Rastogi Placed at Zoroastrian Bank</p>
           </div>
         </div>
             </div>

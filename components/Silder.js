@@ -17,8 +17,8 @@ const images = [
 export default function Slider() {
 
   return (
-    <div className='bg-yellow-400 pb-8 pt-8'>
-      <h3 className="font-bold text-3xl mb-4 mt-4 text-center">Placement Taxila Business School</h3>
+    <div className='bg-white pb-8 pt-8'>
+      <h3 className="font-bold text-red-900 text-3xl mb-4 mt-4 text-center">Placement Taxila Business School</h3>
       <hr className="border-b-2 border-red-600 w-80 mx-auto mb-12" />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  max-w-7xl mx-auto p-6">

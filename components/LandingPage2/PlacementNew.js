@@ -1,29 +1,44 @@
-export default function PlacementNew(){
-    return(
-        <>
-         <h3 className="uppercase text-center text-white font-bold text-4xl pt-12">Placements</h3>
-         <hr className="border border-b-2 border-orange-600 w-[120px] mx-auto" />
-        <div className=" max-w-7xl mx-auto text-black items-center py-8 gap-6">
-           
-            <div className="max-w-7xl mx-auto flex flex-col sm:flex-row gap-4 px-4">
-                <div className="border bg-white px-4 py-6 rounded-xl text-center">
-                    <h5 className="text-orange-600 font-bold text-3xl sm:text4xl">Rs. 28.60 LPA</h5>
-                    <p className="text-xl font-bold text-black">Highest Package</p>
+import FormWidget from "../NPFForm";
+import her1 from "@/public/hero3.jpg" 
+import Image from "next/image";
+export default function PlacementNew() {
+  return (
+    <>
+      <section className=" text-white py-12">
+
+        <div className="max-w-7xl items-center mx-auto py-12 px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row gap-10 items-center">
+            {/* Stats Section */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full lg:w-2/3">
+              {[
+                { label: "Average Package", value: "Rs. 11.50 LPA" },
+                { label: "Highest Package", value: "Rs. 28.60 LPA" },
+                { label: "Placement Record", value: "100%" },
+                { label: "Placed Internationally", value: "29%" },
+              ].map((item, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white rounded-xl p-6 text-center shadow hover:shadow-md transition duration-200"
+                >
+                  <h5 className="text-orange-600 font-bold text-3xl">
+                    {item.value}
+                  </h5>
+                  <p className="text-lg font-semibold text-gray-800 mt-2">
+                    {item.label}
+                  </p>
                 </div>
-                <div className="border bg-white px-4 py-6 rounded-xl text-center">
-                    <h5 className="text-orange-600 font-bold text-3xl sm:text4xl">Rs. 11.50 LPA</h5>
-                    <p className="text-xl font-bold text-black">Average Package</p>
-                </div>
-                <div className="border bg-white px-4 py-6 rounded-xl text-center">
-                    <h5 className="text-orange-600 font-bold text-3xl sm:text4xl">Rs. 25.60 LPA</h5>
-                    <p className="text-xl font-bold text-black">Highest Domestic Package</p>
-                </div>
-                <div className="border bg-white px-4 py-6 rounded-xl text-center ">
-                    <h5 className="text-orange-600 font-bold text-3xl sm:text4xl">80+</h5>
-                    <p className="text-xl font-bold text-black">Global Recruiters</p>
-                </div>
+              ))}
             </div>
+
+            {/* Form Section */}
+            <div className="w-full lg:w-2/3">
+              <div className="bg-white rounded-xl p-6 shadow">
+                <FormWidget />
+              </div>
+            </div>
+          </div>
         </div>
-        </>
-    )
+      </section>
+    </>
+  );
 }

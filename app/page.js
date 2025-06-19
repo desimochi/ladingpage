@@ -13,6 +13,9 @@ import Hero from "@/components/Hero";
 import NewHero from "@/components/LandingPage2/NewHero";
 import Scholarships from "@/components/LandingPage2/Tabs/Scholarships";
 import Link from "next/link";
+import Slider from "@/components/Silder";
+import FormWidget from "@/components/NPFForm";
+import Chatwidget from "@/components/Chatbot";
 export const metadata = {
   title: "Taxila Business School PGDM Admisisons 2025 | Apply Now",
   description: "Taxila Business School is the Best MBA/PGDM Colleges in India offers AICTE approved PGDM+Business Analytics with Triple Specialization for all students.",
@@ -38,8 +41,10 @@ export default function HomePage() {
   
   return (
     <main className="bg-[#6e0a0a] text-white font-sans">
-      <NewHero/>
+    
       <PlacementNew/>
+      <Slider />
+      <Placement />
       <div className="bg-white">
          <div className="mt-8 text-center max-w-6xl mx-auto py-12">
         <h3 className="font-bold text-2xl mb-4 text-black">TOP RECRUITERS</h3>
@@ -83,6 +88,11 @@ export default function HomePage() {
       
       <div className="bg-white pb-4">
   <Testimonials />
+  <div className="max-w-xl mx-auto">
+<FormWidget/>
+  </div>
+  <Chatwidget />
+  
           <p className="text-gray-800 text-center">For More Information Visit Our Website : <a href='https://taxila.in/?utm_source=googleads&utm_medium=landingpage' className="text-red-600 underline">www.taxila.in</a></p>
       </div>
     
