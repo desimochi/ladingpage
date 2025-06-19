@@ -91,7 +91,6 @@ export default function HomePage() {
   <div className="max-w-xl mx-auto">
 <FormWidget/>
   </div>
-  <Chatwidget />
   
           <p className="text-gray-800 text-center">For More Information Visit Our Website : <a href='https://taxila.in/?utm_source=googleads&utm_medium=landingpage' className="text-red-600 underline">www.taxila.in</a></p>
       </div>
