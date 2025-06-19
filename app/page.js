@@ -49,13 +49,13 @@ export default function HomePage() {
          <div className="mt-8 text-center max-w-6xl mx-auto py-12">
         <h3 className="font-bold text-2xl mb-4 text-black">TOP RECRUITERS</h3>
         <hr className="border-b-2 border-white w-80 mb-8 mx-auto" />
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-4 justify-center">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4 justify-center">
           {[
-            , '/hul-logo.png', '/asianpaints.png', '/accenture.png', '/5.png', '/property-pistol.png',
-            '/berger-paints.png', '/Deloitte_Logo.png', '/KPMG_logo.svg','/zorastian.jpg', '/yesbank.png'
+            '/pwc-logo.png', '/hul-logo.png', '/asianpaints.png', '/citibank.jpg', '/accenture.png',
+            '/berger-paints.png','/Deloitte_Logo.png', '/KPMG_logo.svg','/zorastian.jpg', '/yesbank.png' , '/moodys.webp', '/gor.png'
           ].map((logo, idx) => (
-            <div key={idx} className="p-2 border rounded-md shadow-sm flex items-center justify-center h-16 bg-white">
-              <Image src={logo} alt={logo} width={100} height={40} className="object-contain" />
+            <div key={idx} className="p-2 border rounded-md shadow-sm flex items-center justify-center h-24 bg-white">
+              <Image src={logo} alt={logo} width={120} height={60} className="object-contain" />
             </div>
           ))}
         </div>
@@ -92,7 +92,7 @@ export default function HomePage() {
 <FormWidget/>
   </div>
   <Chatwidget />
-
+  
           <p className="text-gray-800 text-center">For More Information Visit Our Website : <a href='https://taxila.in/?utm_source=googleads&utm_medium=landingpage' className="text-red-600 underline">www.taxila.in</a></p>
       </div>
     

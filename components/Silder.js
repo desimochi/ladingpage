@@ -2,16 +2,15 @@
 import Image from 'next/image';
 
 const images = [
-  { image: '/mohit.jpg', name: 'Mohit Sachdeva', year: '2023-24', package: 'PricewaterhouseCoopers' },
-  { image: '/kamya.jpg', name: 'Kamya Sethi', year: '2023-24', package: 'PricewaterhouseCoopers' },
-  { image: '/aarushi.jpg', name: 'Aarushi Rastogi', year: '2023-24', package: 'Zoroastrian Bank' },
-  { image: '/shruti-gupta.jpg', name: 'Shruti Gupta', year: '2024-26', package: 'Mahima Group' },
-  { image: '/nipun.jpg', name: 'Mohit Sachdeva', year: '2023-24', package: 'PricewaterhouseCoopers' },
-  { image: '/sanket.jpg', name: 'Sanket Lunge', year: '2023-24', package: 'PricewaterhouseCoopers' },
-  { image: '/varun.jpg', name: 'Varun Nayak', year: '2022-24', package: 'Hindustan Unilever' },
-  { image: '/bharat.jpg', name: 'Bharat Bairagi', year: '2022-23', package: 'Vedanta Limited' },
   { image: '/yaksh.jpg', name: 'Yaksh Redhu', year: '2019-20', package: '01.00 Crore' },
   { image: '/Venkata-Sriraj.jpg', name: 'Venkata Shriraj', year: '2020-22', package: '28.6 LPA' },
+  { image: '/nipun.jpg', name: 'Nipun Choudhary', year: '2023-24', package: 'HUL' },
+  { image: '/bharat.jpg', name: 'Bharat Bairagi', year: '2022-23', package: 'Vedanta Limited' },
+  { image: '/mohit.jpg', name: 'Mohit Sachdeva', year: '2023-24', package: 'PwC' },
+  { image: '/aarushi.jpg', name: 'Aarushi Rastogi', year: '2023-24', package: 'Zoroastrian Bank' },
+  { image: '/kamya.jpg', name: 'Kamya Sethi', year: '2023-24', package: 'PwC' },
+  { image: '/shruti-gupta.jpg', name: 'Shruti Gupta', year: '2024-26', package: 'Mahima Group' },
+  
 ];
 
 export default function Slider() {
@@ -34,7 +33,6 @@ export default function Slider() {
       <div className="px-6 py-4 flex flex-col items-center text-center space-y-2">
         <p className="text-2xl px-2 font-bold text-red-600">{src.package}</p>
         <p className="text-xs px-2 font-bold text-red-600">══════════════════</p>
-        <p className="text-lg font-semibold text-gray-600">{src.year}</p>
         <p className="text-xl font-bold text-black">{src.name}</p>
       </div>
     </div>
