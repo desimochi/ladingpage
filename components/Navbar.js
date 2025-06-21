@@ -20,8 +20,9 @@ const Navbar = () => {
         </h2>
         
         {/* Right: AICTE Approved */}
-        <div className="text-center">
+        <div className="text-center flex items-center gap-2 ">
           <a href='tel:+918404040404' className='bg-red-700 px-4 text-white rounded-md py-2'>Call Now</a>
+          <p className='hidden sm:block'>+91 8404040404</p>
         </div>
       </div>
     </header>

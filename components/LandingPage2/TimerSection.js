@@ -32,7 +32,7 @@ export default function TimerSection({targetDate}){
         <div className="bg-black text-sm text-white text-center py-2">
         Admissions Open for PGDM Business Analytics,
 with Triple Specialization with Deadline of{" "}
-        <span className="font-bold">20 June 2025</span>
+        <span className="font-bold">30 June 2025</span>
         <div className="flex justify-center gap-4 mt-3">
         {['days', 'hours', 'minutes', 'seconds'].map((unit) => (
           <div key={unit} className="bg-red-700 text-white rounded w-20 p-1 shadow">
