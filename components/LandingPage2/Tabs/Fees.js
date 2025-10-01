@@ -1,6 +1,6 @@
 export default function Fees() {
   return (
-    <>
+    <section >
     <h3 className="px-12 text-3xl font-bold text-gray-800">Fees</h3>
     <div className="max-w-6xl mx-auto p-6 grid md:grid-cols-2 gap-6 text-sm text-gray-800">
       {/* Based on Entrance Exam */}
@@ -59,6 +59,6 @@ export default function Fees() {
         </table>
       </div>
     </div>
-    </>
+    </section>
   )
 }

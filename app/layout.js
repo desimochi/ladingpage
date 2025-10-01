@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${mulish.className} antialiased`}
       >
-        <TimerSection targetDate={targetDate} />
         <Navbar />
         {children}
         <Footer/>

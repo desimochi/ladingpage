@@ -16,6 +16,7 @@ import Link from "next/link";
 import Slider from "@/components/Silder";
 import FormWidget from "@/components/NPFForm";
 import Chatwidget from "@/components/Chatbot";
+import Hero1 from "@/components/new/Hero1";
 export const metadata = {
   title: "Taxila Business School PGDM Admisisons 2025 | Apply Now",
   description: "Taxila Business School is the Best MBA/PGDM Colleges in India offers AICTE approved PGDM+Business Analytics with Triple Specialization for all students.",
