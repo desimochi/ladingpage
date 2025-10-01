@@ -54,7 +54,7 @@ export default function Testimonials2() {
           <div key={index} className=" border border-gray-200 p-6 rounded-2xl">
             <p className="text-gray-800  mb-4">{t.quote}</p>
             <div className="flex items-center space-x-4">
-              <div className="relative w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full">
+              <div className="relative w-10 h-10 flex items-center justify-center bg-[#011F5B] rounded-full">
                 <User2Icon className='text-yellow-400' />
               </div>
               <div>

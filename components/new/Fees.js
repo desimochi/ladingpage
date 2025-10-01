@@ -29,7 +29,7 @@ export default function FeeStructure() {
   ];
 
   return (
-    <div id="fees" className=" bg-black flex items-center justify-center p-8 font-sans my-12 rounded-2xl">
+    <div id="fees" className=" bg-[#011F5B] flex items-center justify-center p-8 font-sans my-12 rounded-2xl">
       <div className="max-w-7xl w-full space-y-4">
         {/* Title with colorful underline */}
         <div className="mb-8">

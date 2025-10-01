@@ -98,7 +98,7 @@ export default function Roadmap() {
   const [active, setActive] = useState(1);
 
   return (
-    <section id="curicullum" className="bg-black text-white py-16 relative font-sans rounded-2xl px-3">
+    <section id="curicullum" className="bg-[#011F5B] text-white py-16 relative font-sans rounded-2xl px-3">
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-20 pointer-events-none"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -128,8 +128,8 @@ export default function Roadmap() {
               onClick={() => setActive(term.id)}
               className={`px-6 py-2 text-sm font-medium transition cursor-pointer ${
                 active === term.id
-                  ? "bg-gray-800 text-yellow-400"
-                  : "bg-gray-900 hover:bg-gray-800 text-gray-300"
+                  ? "bg-blue-800 text-yellow-400"
+                  : "bg-blue-900 hover:bg-blue-800 text-gray-300"
               }`}
             >
               Term {term.id}
@@ -139,7 +139,7 @@ export default function Roadmap() {
 
         {/* Content */}
         <div className="grid md:grid-cols-2 gap-8 items-start">
-          <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
+          <div className="bg-blue-900/50 backdrop:backdrop-blur-2xl p-6 rounded-xl shadow-lg">
             <h3 className="text-lg font-semibold text-yellow-400 mb-4">
               {terms[active - 1].title}
             </h3>

@@ -7,7 +7,7 @@ import NAVBars from "./Nav";
 
 export default function Hero1() {
   return (
-    <div className="bg-black/95 text-white  font-sans">
+    <div className="bg-[#011F5B] text-white  font-sans">
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-6 py-16">
         {/* Left Content */}
@@ -26,13 +26,7 @@ export default function Hero1() {
               href="#apply"
               className="group bg-yellow-400 px-6 py-3 justify-center rounded-full text-black  hover:opacity-90 transition flex items-center gap-1 hover:gap-2 "
             >
-              Apply Now <div className="group-hover:bg-black group-hover:p-1 group-hover:rounded-full transition-all "><ArrowRightIcon className="h-5 w-5 group-hover:text-white group-hover:-rotate-45 transition" /></div>
-            </Link>
-            <Link
-              href="#placement"
-              className="border border-gray-500 px-6 py-3 text-center rounded-full hover:bg-gray-800 transition"
-            >
-              Download Placement Report →
+              Apply Now <div className="group-hover:bg-[#011F5B] group-hover:p-1 group-hover:rounded-full transition-all "><ArrowRightIcon className="h-5 w-5 group-hover:text-white group-hover:-rotate-45 transition" /></div>
             </Link>
           </div>
         </div>

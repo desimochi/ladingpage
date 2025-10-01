@@ -2,13 +2,7 @@
 import { Building, Square, FileText, SheetIcon, Megaphone, IndianRupee, PersonStandingIcon, UserCheck, Podcast } from "lucide-react";
 
 export default function CoachesSection() {
-  const modules = [
-    { code: 'AIML', title: 'AI & ML', color: 'from-yellow-400 to-yellow-500' },
-    { code: 'COMM', title: 'Communication &\nSelf Development', color: 'from-gray-700 to-gray-800' },
-    { code: 'FIFI', title: 'Finance and\nFintech', color: 'from-gray-800 to-gray-900' },
-    { code: 'MAST', title: 'Management &\nStrategy', color: 'from-yellow-600 to-orange-600' },
-    { code: 'SAMA', title: 'Sales & Marketing', color: 'from-gray-700 to-gray-800' }
-  ];
+
   const coaches = [
     {
       icon: <SheetIcon className="w-6 h-6 text-gray-100" />,
@@ -93,7 +87,7 @@ export default function CoachesSection() {
           {coaches.map((coach, index) => (
             <div key={index} className="flex flex-col ">
               {/* Icon with gradient border */}
-              <div className="w-14 h-14 flex items-center justify-center rounded-full border-2 border-gradient-to-r from-blue-100 to-yellow-200 bg-gray-900 mb-4">
+              <div className="w-14 h-14 flex items-center justify-center rounded-full border-2 border-blue-950 bg-[#011F5B] mb-4">
                 {coach.icon}
               </div>
               <h3 className="font-semibold text-lg mb-2 text-gray-900">{coach.title}</h3>

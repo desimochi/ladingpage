@@ -85,7 +85,7 @@ export default function AlumniSection() {
              <p
               className="group bg-gray-100 border-gray-300 px-6 py-3 justify-center rounded-full text-black  hover:opacity-90 transition flex items-center gap-1 hover:gap-2 "
             >
-              MBA Admissions 2025 <span className="group-hover:bg-black group-hover:p-1 group-hover:rounded-full transition-all "><ArrowRightIcon className="h-5 w-5 group-hover:text-white group-hover:-rotate-45 transition" /></span>
+              MBA Admissions 2025 <span className="group-hover:bg-[#011F5B] group-hover:p-1 group-hover:rounded-full transition-all "><ArrowRightIcon className="h-5 w-5 group-hover:text-white group-hover:-rotate-45 transition" /></span>
             </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function AlumniSection() {
               <div className="p-4">
                 <div className="flex justify-between items-center border-b-1 pb-2 mb-2 border-gray-300">
 
-                 <div className=" bg-gray-900 text-gray-50 text-xs px-2 py-1 rounded w-fit">
+                 <div className=" bg-[#011F5B] text-gray-50 text-xs px-2 py-1 rounded w-fit">
                  {" "}
                   <span className="font-semibold">{alum.prev}</span>
                 </div>

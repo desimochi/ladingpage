@@ -13,7 +13,7 @@ export default function Highlights(){
           <div className="grid grid-cols-2 gap-1 sm:gap-6">
             <div className="bg-white text-black p-6 rounded-xl shadow">
               <h3 className="text-gray-600 border-b-1 border-gray-200">Placements</h3>
-              <p className="text-4xl font-bold mt-2">28.60/-</p>
+              <p className="text-4xl font-bold mt-2 ">28.60/-</p>
               <p className="text-sm text-gray-600">Lakh Highest Package Offered</p>
             </div>
 

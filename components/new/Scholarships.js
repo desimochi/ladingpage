@@ -13,7 +13,7 @@ export default function Scholarships2() {
       {/* Based on Entrance Exam */}
       <div>
       <div className=" border border-gray-200 rounded-2xl">
-        <div className="bg-black text-yellow-300 font-semibold px-4 py-2 text-center">
+        <div className="bg-[#011F5B] text-yellow-300 font-semibold px-4 py-2 text-center">
           Based on Entrance Exam
         </div>
         <table className="w-full border border-collapse rounded-2xl">
@@ -40,7 +40,7 @@ export default function Scholarships2() {
 
       {/* Based on Academic Performance */}
       <div className=" border border-gray-300 mt-4 mb-4">
-        <div className="bg-black text-yellow-300 text-center font-semibold px-4 py-2">
+        <div className="bg-[#011F5B] text-yellow-300 text-center font-semibold px-4 py-2">
           Based on Academic Performance
         </div>
         <table className="w-full border border-collapse">
@@ -57,7 +57,7 @@ export default function Scholarships2() {
 
       {/* Based on Work Experience */}
       <div className=" border border-gray-200 col-span-full md:col-span-2">
-        <div className="bg-black text-yellow-300 text-center font-semibold px-4 py-2">
+        <div className="bg-[#011F5B] text-yellow-300 text-center font-semibold px-4 py-2">
           Based on Work Experience
         </div>
         <table className="w-full border border-collapse">

@@ -52,7 +52,7 @@ export default function NAVBars() {
 
   return (
     <nav
-      className={`bg-black border-t border-b border-gray-800 font-sans text-gray-400 overflow-x-auto sm:overflow-visible sticky top-0 z-50 transition-all duration-300 ${
+      className={`bg-[#011F5B] border-t border-b border-blue-800 font-sans text-gray-400 overflow-x-auto sm:overflow-visible sticky top-0 z-50 transition-all duration-300 ${
         isSticky ? "shadow-lg" : ""
       } ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
     >

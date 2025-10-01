@@ -7,7 +7,7 @@ export default function Ranking2() {
       style={{ backgroundImage: "url('https://taxila.in/img/taxila.jpg')" }} // Replace with your image path
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#000]/98 z-0 rounded-2xl"></div>
+      <div className="absolute inset-0 bg-[#011F5B]/98 z-0 rounded-2xl"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto">
