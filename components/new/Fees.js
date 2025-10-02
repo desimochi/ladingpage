@@ -29,13 +29,15 @@ export default function FeeStructure() {
   ];
 
   return (
-    <div id="fees" className=" bg-[#011F5B] flex items-center justify-center p-8 font-sans my-12 rounded-2xl">
+    <section id="fees" className=" bg-[#011F5B] flex items-center justify-center p-8 font-sans my-12 rounded-2xl">
       <div className="max-w-7xl w-full space-y-4">
         {/* Title with colorful underline */}
         <div className="mb-8">
+           <p className="bg-red-600 text-white w-fit px-4 py-1 rounded-2xl mb-2 animate-pulse">100% Education Loan Available</p>
           <h2 className="text-white text-3xl md:text-4xl font-bold mb-2">
             Fee Structure <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">(PGDM Course 2025)</span>
           </h2>
+          
           <svg className="w-64 h-3" viewBox="0 0 300 12" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="underlineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -56,8 +58,12 @@ export default function FeeStructure() {
         </div>
 
         {/* Fee Table */}
+      
         <div className="flex flex-col sm:flex-row gap-3 w-full">
-            <div className="border border-gray-700 rounded-2xl overflow-hidden backdrop-blur-sm bg-gray-900/30 w-full sm:w-1/3">
+          <div className="w-full sm:w-1/3">
+            <h4 className="text-gray-50 text-xl font-bold mb-2">Plan - 1 (One Time Payment)</h4>
+           
+            <div className="border border-gray-700 rounded-2xl overflow-hidden backdrop-blur-sm bg-gray-900/30 ">
           {/* Table Header */}
           <div className="grid grid-cols-2 bg-gradient-to-r from-gray-800/50 to-gray-900/50 border-b border-gray-700">
             <div className="px-6 py-4 text-yellow-400 font-semibold text-sm">
@@ -75,24 +81,28 @@ export default function FeeStructure() {
                 key={idx}
                 className={`grid grid-cols-2 ${idx !== feeData.length - 1 ? 'border-b border-gray-200' : ''}`}
               >
-                <div className="px-6 py-5 text-gray-900 font-medium">
+                <div className="px-6 py-1 text-gray-900 font-medium">
                   {row.round}
                 </div>
-                <div className="px-6 py-5 text-gray-700">
+                <div className="px-6 py-1 text-gray-700">
                   {row.admission}
                 </div>
-                <div className="px-6 py-5 text-gray-700">
+                <div className="px-6 py-1 text-gray-700">
                   {row.tuition}
                 </div>
-                <div className="px-6 py-5 text-gray-900 font-medium">
+                <div className="px-6 py-1 text-gray-900 font-medium">
                   {row.total}
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <div className="border border-gray-700 rounded-2xl overflow-hidden backdrop-blur-sm bg-gray-900/30 w-full sm:w-1/3">
+        </div>
+        <div className="w-full sm:w-1/3">
+    <h4 className="text-gray-50 text-xl font-bold mb-2">Plan - 2 (Installment Payment)</h4>
+        <div className="border border-gray-700 rounded-2xl overflow-hidden backdrop-blur-sm bg-gray-900/30 ">
           {/* Table Header */}
+               
           <div className="grid grid-cols-2 bg-gradient-to-r from-gray-800/50 to-gray-900/50 border-b border-gray-700">
             <div className="px-6 py-4 text-yellow-400 font-semibold text-sm">
               Type
@@ -109,21 +119,22 @@ export default function FeeStructure() {
                 key={idx}
                 className={`grid grid-cols-2 ${idx !== feeData.length - 1 ? 'border-b border-gray-200' : ''}`}
               >
-                <div className="px-6 py-5 text-gray-900 font-medium">
+                <div className="px-6 py-1 text-gray-900 font-medium">
                   {row.round}
                 </div>
-                <div className="px-6 py-5 text-gray-700">
+                <div className="px-6 py-1 text-gray-700">
                   {row.admission}
                 </div>
-                <div className="px-6 py-5 text-gray-700">
+                <div className="px-6 py-1 text-gray-700">
                   {row.tuition}
                 </div>
-                <div className="px-6 py-5 text-gray-900 font-medium">
+                <div className="px-6 py-1 text-gray-900 font-medium">
                   {row.total}
                 </div>
               </div>
             ))}
           </div>
+        </div>
         </div>
         <div className="border border-gray-700 rounded-xl px-6 py-4 bg-gray-900/30 backdrop-blur-sm w-full sm:w-1/3">
           <p className="text-gray-300 text-sm flex items-start gap-3">
@@ -162,6 +173,6 @@ export default function FeeStructure() {
         {/* GST Note */}
         
       </div>
-    </div>
+    </section>
   );
 }

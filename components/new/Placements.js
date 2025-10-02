@@ -1,6 +1,7 @@
 // app/components/AlumniSection.js
 import { ArrowRightIcon, Linkedin } from "lucide-react";
 import Companies from "./Companies";
+import Link from "next/link";
 
 const alumniData = [
   {
@@ -71,22 +72,23 @@ const alumniData = [
 
 export default function AlumniSection() {
   return (
-    <>
-    <section id="placements" className="bg-white py-16 relative font-sans">
+    <section id="placements" >
+    <div  className="bg-white py-16 relative font-sans">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
-        <div className="flex justify-between items-center mb-10">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10">
           <div>
             <p className="text-gray-500 font-semibold text-sm">
             Taxila PGDM Success Stories
             </p>
             <h2 className="text-3xl font-bold text-black">PGDM Placements 2025</h2>
           </div>
-             <p
-              className="group bg-gray-100 border-gray-300 px-6 py-3 justify-center rounded-full text-black  hover:opacity-90 transition flex items-center gap-1 hover:gap-2 "
+             <Link
+             href={"#apply"}
+              className="group bg-gray-100 border-gray-300 mt-3 sm:mt-0 px-6 py-3 justify-center rounded-full text-black  hover:opacity-90 transition flex items-center gap-1 hover:gap-2 "
             >
               MBA Admissions 2025 <span className="group-hover:bg-[#011F5B] group-hover:p-1 group-hover:rounded-full transition-all "><ArrowRightIcon className="h-5 w-5 group-hover:text-white group-hover:-rotate-45 transition" /></span>
-            </p>
+            </Link>
         </div>
 
         {/* Alumni Grid */}
@@ -130,8 +132,8 @@ export default function AlumniSection() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
     <Companies />
-    </>
+    </section>
   );
 }

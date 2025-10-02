@@ -2,7 +2,7 @@ import FormWidget from "@/components/NPFForm";
 
 export default function Scholarships2() {
   return (
-    <div id="scholarships" className="bg-white font-sans max-w-7xl mx-auto p-3">
+    <section id="scholarships" className="bg-white font-sans max-w-7xl mx-auto p-3">
     <div>
             <p className="text-gray-500 font-semibold text-sm">
             Scholarships at Top Management College in India
@@ -84,6 +84,6 @@ export default function Scholarships2() {
 </div>
 <FormWidget />
     </div>
-    </div>
+    </section>
   )
 }

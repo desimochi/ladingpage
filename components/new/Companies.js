@@ -1,6 +1,6 @@
 export default function Companies() {
   return (
-    <section className="logos-section overflow-hidden bg-gradient-to-r from-blue-100 to-yellow-200 py-16 rounded-2xl font-sans">
+    <section className="logos-section overflow-hidden bg-gradient-to-r from-blue-100 to-yellow-200 py-16 rounded-2xl font-sans px-3 sm:px-0">
       <div className="max-w-7xl mx-auto mb-12">
         <h2 className="text-3xl md:text-4xl text-gray-900 mb-4 font-bold">
           Our Top Recruitment Partners

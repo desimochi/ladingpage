@@ -21,9 +21,9 @@ export default function FormWidget() {
   }, []);
 
   return (
-    <div className="px-1 pt-3 bg-gray-100 w-full">
+    <div id='apply' className="px-1 pt-3 bg-gray-100 w-full">
      
-      <h3 className=" text-center font-sans text-gray-800 font-semibold mb-2">Admission Open 2026-28</h3>
+      <h3  className=" text-center font-sans text-gray-800 font-semibold mb-2">Admission Open 2026-28</h3>
       
       <div
         ref={widgetRef} 
@@ -32,6 +32,7 @@ export default function FormWidget() {
         data-height="500px"
         data-w="b8c4e00dec4eb71a43966a6ca45f53f3"
       ></div>
+    
     </div>
   );
 }

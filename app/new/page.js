@@ -8,8 +8,6 @@ import NAVBars from "@/components/new/Nav";
 import AlumniSection from "@/components/new/Placements";
 import Ranking2 from "@/components/new/Rankings";
 import Scholarships2 from "@/components/new/Scholarships";
-import CoachesSection from "@/components/new/Specialisation";
-import PGPTBMStats from "@/components/new/Stats";
 import Testimonials2 from "@/components/new/Testimonials";
 
 export default function Page(){
@@ -20,8 +18,6 @@ export default function Page(){
         <Highlights/>
         <AlumniSection />
         <Roadmap />
-        <PGPTBMStats />
-        <CoachesSection />
         <FeeStructure/>
         <Scholarships2 />
         <Ranking2/>

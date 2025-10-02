@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import PGPTBMStats from "./Stats";
+import CoachesSection from "./Specialisation";
 
 const terms = [
   {
@@ -98,7 +100,8 @@ export default function Roadmap() {
   const [active, setActive] = useState(1);
 
   return (
-    <section id="curicullum" className="bg-[#011F5B] text-white py-16 relative font-sans rounded-2xl px-3">
+    <section id="curicullum">
+    <section  className="bg-[#011F5B] text-white py-16 relative font-sans rounded-2xl px-3">
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-20 pointer-events-none"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -165,6 +168,9 @@ export default function Roadmap() {
           </div>
         </div>
       </div>
+    </section>
+    <PGPTBMStats />
+    <CoachesSection />
     </section>
   );
 }
