@@ -23,7 +23,7 @@ export default function FormWidget() {
   return (
     <div className="px-4 pt-4 bg-gray-100">
      
-      <h3 className=" text-center font-sans text-gray-800 font-semibold mb-2">Admission Open 2025-27</h3>
+      <h3 className=" text-center font-sans text-gray-800 font-semibold mb-2">Admission Open 2026-28</h3>
       
       <div
         ref={widgetRef} 
