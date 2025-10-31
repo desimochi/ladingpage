@@ -10,11 +10,11 @@ import Ranking2 from "@/components/new/Rankings";
 import Scholarships2 from "@/components/new/Scholarships";
 import Testimonials2 from "@/components/new/Testimonials";
 export const metadata = {
-  title: "Taxila Business School PGDM Admisisons 2025 | Apply Now",
+  title: "Taxila Business School PGDM Admisisons 2026 | Apply Now",
   description: "Taxila Business School is the Best MBA/PGDM Colleges in India offers AICTE approved PGDM+Business Analytics with Triple Specialization for all students.",
   keywords: ["Placement", "MBA", "Top Companies", "Recruitment", "Mbaroi", "Success Stories"],
   openGraph: {
-    title: "Taxila Business School PGDM Admisisons 2025 | Apply Now",
+    title: "Taxila Business School PGDM Admisisons 2026 | Apply Now",
     description: "Taxila Business School is the Best MBA/PGDM Colleges in India offers AICTE approved PGDM+Business Analytics with Triple Specialization for all students.",
     url: "https://admission.taxila.in/",
     siteName: "Taxila Business School",

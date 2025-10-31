@@ -7,7 +7,7 @@ export default function Scholarships2() {
             <p className="text-gray-500 font-semibold text-sm">
             Scholarships at Top Management College in India
             </p>
-            <h2 className="text-3xl font-bold text-black">Scholarships for PGDM Admisisons 2025</h2>
+            <h2 className="text-3xl font-bold text-black">Scholarships for PGDM Admisisons 2026</h2>
           </div>
     <div className=" mt-6 grid md:grid-cols-2 gap-6 text-sm text-gray-800">
       {/* Based on Entrance Exam */}

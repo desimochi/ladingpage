@@ -35,7 +35,7 @@ export default function FeeStructure() {
         <div className="mb-8">
            <p className="bg-red-600 text-white w-fit px-4 py-1 rounded-2xl mb-2 animate-pulse">100% Education Loan Available</p>
           <h2 className="text-white text-3xl md:text-4xl font-bold mb-2">
-            Fee Structure <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">(PGDM Course 2025)</span>
+            Fee Structure <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">(PGDM Course 2026)</span>
           </h2>
           
           <svg className="w-64 h-3" viewBox="0 0 300 12" xmlns="http://www.w3.org/2000/svg">

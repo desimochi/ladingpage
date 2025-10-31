@@ -7,6 +7,12 @@ export default function PGPTBMStats() {
       suffixColor: 'text-yellow-400',
       label: 'of the Batch Placed Internationally'
     },
+     {
+      value: '71',
+      suffix: '%',
+      suffixColor: 'text-yellow-400',
+      label: 'of the Batch Placed Nationally'
+    },
     {
       value: '100',
       suffix: '+',
@@ -49,7 +55,7 @@ export default function PGPTBMStats() {
         </div>
 
         {/* Statistics Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
           {stats.map((stat, idx) => (
             <div 
               key={idx}
