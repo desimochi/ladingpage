@@ -24,7 +24,7 @@ const terms = [
       "Statistical Methods for Management Decisions",
       "Human Resource Management",
     ],
-    image: "https://taxila.in/img/gallery/classrooms/large/ga4.jpg", // replace with your image path
+    image: "https://taxila.in/media/gallery/177.jpg", // replace with your image path
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const terms = [
       "Gamification & Behavioural Design",
       "Market Research",
     ],
-    image: "https://taxila.in/img/gallery/classrooms/large/ga2.jpg",
+    image: "https://taxila.in/media/gallery/217.jpg",
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ const terms = [
       "Managerial Economics",
       "Mancom"
     ],
-    image: "https://taxila.in/img/gallery/events/large/ga37.jpg",
+    image: "https://taxila.in/media/gallery/126.jpg",
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ const terms = [
       "Business Analytics & AI 5",
       "Business Analytics & AI 6",
     ],
-    image: "https://taxila.in/img/gallery/campus/large/ga18.jpg",
+    image: "https://taxila.in/media/gallery/172.jpg",
   },
   {
     id: 5,
@@ -84,7 +84,7 @@ const terms = [
       "Specialization 2 E",
       "Specialization 2 F",
     ],
-    image: "https://taxila.in/img/gallery/campus/large/ga4.jpg",
+    image: "https://taxila.in/media/gallery/140.jpg",
   },
   {
     id: 6,
@@ -92,7 +92,7 @@ const terms = [
      points: [
       "Capstone Projects",
     ],
-    image: "https://taxila.in/img/gallery/campus/large/campus.jpeg",
+    image: "https://taxila.in/media/gallery/150.jpg",
   },
 ];
 

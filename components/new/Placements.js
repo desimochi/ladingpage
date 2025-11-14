@@ -49,7 +49,7 @@ const alumniData = [
     exp: "Policy Bazaar",
     role: "Sr. Business Analyst",
     prev: "Finance",
-    img: "https://taxila.in/img/placements/2025/akasha-kumar-placement.jpg",
+    img: "https://taxila.in/media/placements/photos/akasha-kumar-placement.jpg",
     linkedin: "#",
   },
   {
@@ -57,7 +57,7 @@ const alumniData = [
     exp: "Berger Paints",
     role: "Senior Sales Officer",
     prev: "Sales",
-    img: "https://taxila.in/img/placements/2024/Siddarth.jpg",
+    img: "https://taxila.in/media/placements/photos/Siddarth.jpg",
     linkedin: "#",
   },
   {

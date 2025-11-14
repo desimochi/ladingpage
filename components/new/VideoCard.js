@@ -12,7 +12,7 @@ export default function VideoCard() {
         onClick={() => setIsOpen(true)}
       >
         <img
-          src="https://taxila.in/img/gallery/classrooms/large/ga2.jpg" // replace with actual thumbnail
+          src="https://taxila.in/media/gallery/57.jpg" // replace with actual thumbnail
           alt="Life & Learning"
           className="w-full h-80 object-cover "
         />
