@@ -2,7 +2,7 @@ import VideoCard from "./VideoCard";
 
 export default function Highlights(){
     return (
-           <section id="highlights" className="bg-gradient-to-r from-blue-100 to-yellow-200 py-16 font-sans">
+           <section id="highlights" className="bg-gradient-to-r from-blue-100 to-yellow-200 py-16 font-mulish">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8">
           {/* Left Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">

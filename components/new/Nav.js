@@ -66,7 +66,7 @@ export default function NAVBars() {
 
   return (
     <nav
-      className={`bg-[#011F5B] border-t pl-40 sm:pl-0 border-b border-blue-800 font-sans text-gray-400 overflow-x-auto sm:overflow-visible sticky top-0 z-50 transition-all duration-300 ${
+      className={`bg-[#011F5B] border-t pl-40 sm:pl-0 border-b border-blue-800 font-mulish text-gray-400 overflow-x-auto sm:overflow-visible sticky top-0 z-50 transition-all duration-300 ${
         isSticky ? "shadow-lg" : ""
       } ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
     >

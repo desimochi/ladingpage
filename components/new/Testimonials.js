@@ -25,7 +25,7 @@ export default function Testimonials2() {
   ];
 
   return (
-    <section className="bg-white py-12 px-4 sm:px-6 lg:px-8 font-sans">
+    <section className="bg-white py-12 px-4 sm:px-6 lg:px-8 font-mulish">
         <div className='max-w-7xl mx-auto'>
       <div className=" ">
         <div className="space-y-4">

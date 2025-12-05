@@ -33,7 +33,7 @@ export default function HomePage() {
 
   
   return (
-   <>
+   <main className="font-mulish">
     <Hero1 />
         <NAVBars />
         <Highlights/>
@@ -43,7 +43,7 @@ export default function HomePage() {
         <Scholarships2 />
         <Ranking2/>
         <Testimonials2/>
-   </>
+   </main>
   );
 }
 

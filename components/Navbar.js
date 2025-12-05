@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import logo from '@/public/taxila.png'
+import logo from '@/public/logo.png'
 import aicte from '@/public/aicte-appproved-logo.png'
 
 const Navbar = () => {
   return (
     <>
-    <header className=" shadow bg-gradient-to-r from-blue-100 to-yellow-200 font-sans">
+    <header className=" shadow bg-gradient-to-r from-gray-50 to-red-50 font-sans">
       <div className="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Left: Logo */}
         <div className="text-center">

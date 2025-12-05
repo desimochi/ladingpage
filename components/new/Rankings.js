@@ -3,7 +3,7 @@ import award from '@/public/award.png'
 import { Award } from "lucide-react";
 export default function Ranking2() {
   return (
-    <section id="rankings" className="relative bg-cover bg-center bg-no-repeat text-white py-16 px-4 font-sans rounded-2xl"
+    <section id="rankings" className="relative bg-cover bg-center bg-no-repeat text-white py-16 px-4 font-mulish rounded-2xl"
       style={{ backgroundImage: "url('https://taxila.in/img/taxila.jpg')" }} // Replace with your image path
     >
       {/* Overlay */}

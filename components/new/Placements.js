@@ -73,7 +73,7 @@ const alumniData = [
 export default function AlumniSection() {
   return (
     <section id="placements" >
-    <div  className="bg-white py-16 relative font-sans">
+    <div  className="bg-white py-16 relative font-mulish">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10">

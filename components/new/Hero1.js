@@ -7,7 +7,7 @@ import NAVBars from "./Nav";
 
 export default function Hero1() {
   return (
-    <div className="bg-[#011F5B] text-white  font-sans">
+    <div className="bg-[#011F5B] text-white  font-mulish">
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-6 py-16">
         {/* Left Content */}
