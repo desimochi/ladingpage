@@ -5,21 +5,33 @@ import Image from 'next/image';
 export default function Testimonials2() {
   const testimonials = [
     {
-      quote: "Learning is the essence of life. Taxila is one of the places that has always encouraged me and boosted my skills. I had an exciting experience in this college. In every aspect, Taxila if not top then one of the top colleges for MBA in Jaipur. I would like to thank each and everyone who made my journey far better including students, staff members, and faculties. ",
+      quote: "I shortlisted this institute during my research about the top 10 MBA colleges in India, and I was impressed to see that this institution consistently ranked among the top-rated B-schools in India 2026. The academics, industry interface, and alumni connections are well-justified reasons why this institution stands among the best B-schools in India for management education.",
       name: "Sonal Oberoi",
       title: "Batch 2018-2020",
       avatar: "/mohit.jpg",
     },
     {
-      quote: "I am very lucky to get a chance to study at Taxila. It is among the top mba colleges in India. Taxila is a place where I shine and discover my potential. Taxila made me believe in my capabilities and push me to do the best every single time.   I am thankful to Prof. A K Pathak sir, Kishore sir, Anuradha Ma'am, and Rajat Bohra sir for guiding me throughout this journey. No doubt that Taxila is one of the top MBA colleges in Jaipur. Best of luck to all my juniors. Give your best and rest leave on God.",
+      quote: "As an aspiring management professional, I needed an AICTE-approved PGDM college in India that embodies learning by doing. What makes this institution one of the top PGDM colleges in India is that it stands apart among the top PGDM institutes due to its robust curriculum and training programs that are in line with the current industry requirements.",
       name: "Prof. Farhad Saeed Khan",
       title: "Batch 2006-2008",
       avatar: "/mohit.jpg",
     },
     {
-      quote: "Taxila has provided me a platform to realize my potential and how to make the best use of my strengths. The guidance and the support of the professors throughout our course were incredible. Also, Till now If I face any tricky situation and seeking for help they are always ready with their guidance. It was an eye-opening experience for me. For me, Taxila is on the list of top MBA colleges in Rajasthan I feel fortunate to be a part of this wonderful institution.",
+      quote: "The most beneficial for me was pursuing an MBA in analytics and data science specialization. Accompanying this, innovation is also emphasized at the institute level in terms of pursuing an MBA research and projects focus. For those pursuing an MBA business analytics, this program provides immense value academically",
       name: "Suraj Panigrahi",
       title: "Batch 2018-2020",
+      avatar: "/mohit.jpg",
+    },
+    {
+      quote: "I had applied in the MBA admission open-2026 intake, and the entire process of admission was clear to me. This college is open for MBA admissions in 2026, along with PGDM admission open-2026, which will be a good option for young management students.",
+      name: "Mohit Sachdeva",
+      title: "Batch 2022-2024",
+      avatar: "/mohit.jpg",
+    },
+    {
+      quote: "This institute is known as the best business school in Jaipur and is popular for its best placement statistics. As one of the top 50 MBA colleges in the country, it is a good value-for-money institution offering PGDM courses with high return on investment and competitive job packages.",
+      name: "Nipun Choudhary",
+      title: "Batch 2021-2023",
       avatar: "/mohit.jpg",
     },
   ];
