@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TimerSection from "@/components/LandingPage2/TimerSection";
+import ElevenLabsAgent from "@/components/new/ElevenLabsAgent";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer/>
+        <ElevenLabsAgent />
         <GoogleAnalytics gaId="G-YTTTXDKSTX" />
       </body>
     </html>

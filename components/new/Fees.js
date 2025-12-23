@@ -1,3 +1,6 @@
+import { IndianRupee } from "lucide-react";
+import Link from "next/link";
+
 export default function FeeStructure() {
   const feeData = [
     {
@@ -29,13 +32,13 @@ export default function FeeStructure() {
   ];
 
   return (
-    <section id="fees" className=" bg-[#011F5B] flex items-center justify-center p-8 font-mulish my-12 rounded-2xl">
-      <div className="max-w-7xl w-full space-y-4">
+    <section id="scholarships" className=" bg-[#011F5B] flex items-center justify-center p-8 font-mulish my-12 rounded-2xl">
+      <div className="max-w-7xl w-full space-y-4 flex justify-between items-center">
         {/* Title with colorful underline */}
         <div className="mb-8">
-           <p className="bg-red-600 text-white w-fit px-4 py-1 rounded-2xl mb-2 animate-pulse">100% Education Loan Available</p>
-          <h2 className="text-white text-3xl md:text-4xl font-bold mb-2">
-            Fee Structure <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">(PGDM Course 2026)</span>
+           <p className="bg-red-600 text-white w-fit px-4 py-1 rounded-2xl mb-2 animate-pulse"></p>
+          <h2 className="text-white text-3xl md:text-4xl font-bold mb-2 line-height-3 ">
+            Scholarship Available of <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400"> ₹ 50 Thousand to ₹ 2 Lakh</span>
           </h2>
           
           <svg className="w-64 h-3" viewBox="0 0 300 12" xmlns="http://www.w3.org/2000/svg">
@@ -59,115 +62,11 @@ export default function FeeStructure() {
 
         {/* Fee Table */}
       
-        <div className="flex flex-col sm:flex-row gap-3 w-full">
-          <div className="w-full sm:w-1/3">
-            <h4 className="text-gray-50 text-xl font-bold mb-2">Plan - 1 (One Time Payment)</h4>
-           
-            <div className="border border-gray-700 rounded-2xl overflow-hidden backdrop-blur-sm bg-gray-900/30 ">
-          {/* Table Header */}
-          <div className="grid grid-cols-2 bg-gradient-to-r from-gray-800/50 to-gray-900/50 border-b border-gray-700">
-            <div className="px-6 py-4 text-yellow-400 font-semibold text-sm">
-              Type
-            </div>
-            <div className="px-6 py-4 text-cyan-400 font-semibold text-sm">
-              Amount
-            </div> 
-          </div>
-
-          {/* Table Body */}
-          <div className="bg-white">
-            {feeData.map((row, idx) => (
-              <div 
-                key={idx}
-                className={`grid grid-cols-2 ${idx !== feeData.length - 1 ? 'border-b border-gray-200' : ''}`}
-              >
-                <div className="px-6 py-1 text-gray-900 font-medium">
-                  {row.round}
-                </div>
-                <div className="px-6 py-1 text-gray-700">
-                  {row.admission}
-                </div>
-                <div className="px-6 py-1 text-gray-700">
-                  {row.tuition}
-                </div>
-                <div className="px-6 py-1 text-gray-900 font-medium">
-                  {row.total}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        </div>
-        <div className="w-full sm:w-1/3">
-    <h4 className="text-gray-50 text-xl font-bold mb-2">Plan - 2 (Installment Payment)</h4>
-        <div className="border border-gray-700 rounded-2xl overflow-hidden backdrop-blur-sm bg-gray-900/30 ">
-          {/* Table Header */}
-               
-          <div className="grid grid-cols-2 bg-gradient-to-r from-gray-800/50 to-gray-900/50 border-b border-gray-700">
-            <div className="px-6 py-4 text-yellow-400 font-semibold text-sm">
-              Type
-            </div>
-            <div className="px-6 py-4 text-cyan-400 font-semibold text-sm">
-              Amount
-            </div> 
-          </div>
-
-          {/* Table Body */}
-          <div className="bg-white">
-            {feeData2.map((row, idx) => (
-              <div 
-                key={idx}
-                className={`grid grid-cols-2 ${idx !== feeData.length - 1 ? 'border-b border-gray-200' : ''}`}
-              >
-                <div className="px-6 py-1 text-gray-900 font-medium">
-                  {row.round}
-                </div>
-                <div className="px-6 py-1 text-gray-700">
-                  {row.admission}
-                </div>
-                <div className="px-6 py-1 text-gray-700">
-                  {row.tuition}
-                </div>
-                <div className="px-6 py-1 text-gray-900 font-medium">
-                  {row.total}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        </div>
-        <div className="border border-gray-700 rounded-xl px-6 py-4 bg-gray-900/30 backdrop-blur-sm w-full sm:w-1/3">
-          <p className="text-gray-300 text-sm flex items-start gap-3">
-            <span className="text-cyan-400 mt-0.5">☞</span>
-            <span>
-              Any Government taxes like GST or others taxes if levied at any time will be paid by the student. 
-            </span>
-          </p>
-           <p className="text-gray-300 text-sm flex items-start gap-3 mt-3">
-            <span className="text-cyan-400 mt-0.5">☞</span>
-            <span>
-              Students have to submit 10,000/- as caution money which is refundable.
-            </span>
-          </p>
-          <p className="text-gray-300 text-sm flex items-start gap-3 mt-3">
-            <span className="text-cyan-400 mt-0.5">☞</span>
-            <span>
-             Books Charges  20,000/-, Uniform Charges  9,000/-.
-            </span>
-          </p>
-          <p className="text-gray-300 text-sm flex items-start gap-3 mt-3">
-            <span className="text-cyan-400 mt-0.5">☞</span>
-            <span>
-              Payments: to be made on Taxila Business School payable at Jaipur towards Registration and tuition fee.
-            </span>
-          </p>
-           <p className="text-gray-300 text-sm flex items-start gap-3 mt-3">
-            <span className="text-cyan-400 mt-0.5">☞</span>
-            <span>
-              Tuition Fee refund: as per AICTE norms.
-            </span>
-          </p>
-        </div>
+        
+        <div className=" w-full sm:w-1/3">
+          <Link href={'https://taxila.in/pgdm-with-business-analytics/scholarships-and-grants/'} className="bg-[#dab155] text-black font-semibold px-18 py-3 rounded-full hover:bg-yellow-500 transition w-full">
+            Apply Now
+          </Link>
         </div>
 
         {/* GST Note */}

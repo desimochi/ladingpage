@@ -38,9 +38,10 @@ export default function HomePage() {
         <NAVBars />
         <Highlights/>
         <AlumniSection />
+        
         <Roadmap />
         <FeeStructure/>
-        <Scholarships2 />
+        {/* <Scholarships2 /> */}
         <Ranking2/>
         <Testimonials2/>
    </main>

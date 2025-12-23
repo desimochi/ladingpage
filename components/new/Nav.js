@@ -59,7 +59,6 @@ export default function NAVBars() {
     { id: "highlights", label: "Highlights" },
     { id: "placements", label: "Placements" },
     { id: "curicullum", label: "Curicullum" },
-    { id: "fees", label: "Fees" },
     { id: "scholarships", label: "Scholarships" },
     { id: "rankings", label: "Rankings" },
   ];
@@ -77,13 +76,13 @@ export default function NAVBars() {
             href={`#${link.id}`}
             className={`relative transition-colors whitespace-nowrap ${
               activeSection === link.id
-                ? "text-yellow-400 font-semibold"
-                : "hover:text-yellow-400"
+                ? "text-[#dab155] font-semibold"
+                : "hover:text-[#dab155]"
             }`}
           >
             {link.label}
             {activeSection === link.id && (
-              <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-yellow-400 rounded-full"></span>
+              <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-[#dab155] rounded-full"></span>
             )}
           </Link>
         ))}
