@@ -6,7 +6,7 @@ export default function ElevenLabsAgent() {
   return (
     <>
       {/* ElevenLabs ConvAI Widget */}
-      <elevenlabs-convai agent-id="agent_1801kd4rk0tqfa1b9sts8cn8a8g7" />
+      <elevenlabs-convai agent-id="agent_7701kd7qwp9nfwhtyy97phmzp6bm"/>
 
       {/* Load script safely */}
       <Script
