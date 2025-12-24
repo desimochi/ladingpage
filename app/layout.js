@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TimerSection from "@/components/LandingPage2/TimerSection";
 import ElevenLabsAgent from "@/components/new/ElevenLabsAgent";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +39,19 @@ export default function RootLayout({ children }) {
         <Footer/>
         <ElevenLabsAgent />
         <GoogleAnalytics gaId="G-YTTTXDKSTX" />
+          <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-946516554"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-946516554');
+          `}
+        </Script>
       </body>
     </html>
   );
