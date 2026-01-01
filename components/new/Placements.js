@@ -79,7 +79,7 @@ export default function AlumniSection() {
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10">
           <div>
             <p className="text-gray-500 font-semibold text-sm">
-            Taxila PGDM Success Stories
+            Taxila, Jaipur PGDM Success Stories
             </p>
             <h2 className="text-3xl font-bold text-black">PGDM Placements Taxila Business School</h2>
           </div>

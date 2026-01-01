@@ -17,7 +17,7 @@ export default function Ranking2() {
         <h2 className="text-3xl md:text-4xl font-bold mb-3 leading-snug">
           Rankings and Awards of{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">
-            Taxila Business School
+            Taxila Business School, Jaipur
           </span>
         </h2>
         <p className="text-gray-400 max-w-2xl mb-8">
