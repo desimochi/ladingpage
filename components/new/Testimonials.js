@@ -17,7 +17,7 @@ export default function Testimonials2() {
       avatar: "/mohit.jpg",
     },
     {
-      quote: "The most beneficial for me was pursuing an MBA in analytics and data science specialization. Accompanying this, innovation is also emphasized at the institute level in terms of pursuing an MBA research and projects focus. For those pursuing an MBA business analytics, this program provides immense value academically",
+      quote: "The most beneficial for me was pursuing an MBA in analytics and data science specialization. Accompanying this, innovation is also emphasized at the institute level in terms of pursuing an MBA research and projects focus. For those pursuing an MBA business analytics, this program provides immense value academically. Taxila is among the top mba colleges in india from past few years",
       name: "Suraj Panigrahi",
       title: "Batch 2018-2020",
       avatar: "/mohit.jpg",
