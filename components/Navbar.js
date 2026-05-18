@@ -21,9 +21,9 @@ const Navbar = () => {
         
         {/* Right: AICTE Approved */}
         <div className="text-center flex items-center gap-2 ">
-          <p className='text-xl text-red-600 font-bold'>Application Closing: 15 May 2026</p>
-        {/*<a href='tel:+918404040404' className='bg-black px-4 text-white rounded-md py-2'>Call Now</a>
-          <p className='hidden sm:block'>+91 8404040404</p>*/}
+          {/*<p className='text-xl text-red-600 font-bold'>Application Closing: 15 May 2026</p>*/}
+        <a href='tel:+918404040404' className='bg-black px-4 text-white rounded-md py-2'>Call Now</a>
+          <p className='hidden sm:block'>+91 8404040404</p>
         </div>
       </div>
     </header>
