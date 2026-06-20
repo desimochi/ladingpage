@@ -1,5 +1,3 @@
-
-
 import Roadmap from "@/components/new/Course";
 import FeeStructure from "@/components/new/Fees";
 import Hero1 from "@/components/new/Hero1";
