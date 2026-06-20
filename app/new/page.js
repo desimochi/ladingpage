@@ -9,7 +9,7 @@ import AlumniSection from "@/components/new/Placements";
 import Ranking2 from "@/components/new/Rankings";
 import Scholarships2 from "@/components/new/Scholarships";
 import Testimonials2 from "@/components/new/Testimonials";
-
+import Keywords from "@/components/new/keywords";
 export default function Page(){
     return(
         <>
@@ -22,6 +22,7 @@ export default function Page(){
         <Scholarships2 />
         <Ranking2/>
         <Testimonials2/>
+        <keywords/>
         </>
     )
 }
